@@ -1,0 +1,60 @@
+.card {
+    width: 938px;
+    height: 145px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 12px;
+    padding-top: 0;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card__content {
+    align-items: center;
+}
+
+.card__content-title {
+    color: #1890FF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card__content-likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.card__description {
+    color: #000000BF;
+    font-size: 13px;
+    overflow-wrap: break-word;
+}
+
+.card__info {
+    font-family: 'Inter UI', sans-serif;
+}
+
+.card__info-name {
+    color: #000000D9;
+    font-size: 18px;
+}
+
+.card__info-date {
+    color: #00000080;
+    font-size: 12px;
+}
+
+.card__info-avatar {
+    align-self: center;
+}
+
+.card__like-button--filled {
+    color: #FF0707;
+}
+
+.card__tags {
+    margin-left: -5px;
+    padding-bottom: 5px;
+}

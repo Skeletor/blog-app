@@ -1,0 +1,24 @@
+.create-article-form {
+    width: 938px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.create-article-form__header {
+    text-align: center;
+}
+
+.create-article-form__button {
+    height: 40px
+}
+
+.create-article-form__send-button {
+    background-color: #1890FF;
+    color: white;
+    width: 319px
+}
+
+.create-article-form__add-button {
+    border: 1px solid #1890FF;
+    color: #1890FF;
+}

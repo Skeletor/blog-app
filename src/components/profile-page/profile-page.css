@@ -1,0 +1,10 @@
+.profile-form {
+    width: 384px;
+    margin: 0 auto;
+}
+
+.profile-form__submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

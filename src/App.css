@@ -1,0 +1,6 @@
+
+.app__loading-spin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.sign-up-form {
+    width: 384px;
+    margin: 0 auto;
+}
+
+.sign-up-form__header {
+    text-align: center;
+}
+
+.sign-up-form__submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form__error {
+    color: red;
+    margin-top: -20px;
+    margin-bottom: 12px;
+}
+
+.sign-up-form__to-sign-in {
+    display: flex;
+    justify-content: center;
+}

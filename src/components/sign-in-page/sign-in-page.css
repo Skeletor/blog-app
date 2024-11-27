@@ -1,0 +1,23 @@
+.sign-in-form {
+    width: 384px;
+    margin: 0 auto;
+}
+
+.sign-in-form__header {
+    text-align: center;
+}
+
+.sign-in-form__login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-form__login-button {
+    color: red;
+}
+
+.sign-in-form__to-sign-up {
+    display: flex;
+    justify-content: center;
+}
