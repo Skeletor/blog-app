@@ -87,14 +87,20 @@ const App = () => {
                           <Redirect to='/articles/' />
                       </Switch>
 
-  const renderComponent = hasError ? errorComponent
-                          : isLoading ? loadingComponent
-                          : mainComponent
+  const renderComponent = () => {
+    if (hasError)
+      return errorComponent
+
+    if (isLoading)
+      return loadingComponent
+
+    return mainComponent
+  }
 
   return (
     <Router>
       <Header isLogged={ isLogged } user={ user } />
-      { renderComponent }
+      { renderComponent() }
     </Router>
   );
 }
